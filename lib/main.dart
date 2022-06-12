@@ -13,9 +13,6 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'SOCR Project',
       home: Scaffold(
-        appBar: AppBar(
-          title: const Text('SOCR Project'),
-        ),
         body: WebView(
           initialUrl: "https://socr-nmbr.herokuapp.com",
           javascriptMode: JavascriptMode.unrestricted,
